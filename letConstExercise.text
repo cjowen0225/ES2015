@@ -1,0 +1,15 @@
+let and const Exercise
+
+ES2015 Refactor
+
+const PI = 3.14;
+PI = 42; //This can't be done using const
+
+QUIZ
+1. Var has global scope and is hoisted to the top of the file and can be redeclared. let is only block scope and can't be redeclared.
+
+2. Var has global scope, can be reassigned and redeclared and is hoisted. Const has block scope, can not be reassigned or redeclared.
+
+3. Let can be reassigned while const can't be reassigned.
+
+4. Hoisting is the way that variables are raised to the top of their scope. With let and const, that is the block they are declared in. With var, it is globally hoisted and can be accessed before being declared (as undefined).
